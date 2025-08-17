@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: color 0.3s ease, transform 0.3s ease;
 }
 .hero-section:hover .hero-title {
-  color: var(--primary, #ff9800);
+  color: var(--primary, hsl(250, 100%, 50%));
   transform: translateX(5px);
 }
 .hero-subtitle {
